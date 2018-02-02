@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Alex Gracie Web Design</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.0.4/css/all.css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+        <style>
+
+            html {
+                background: url("https://images.unsplash.com/reserve/Hxev8VTsTuOJ27thHQdK_DSC_0068.JPG?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1600&h=900&fit=crop&s=8115c0d60b99457e669de5a20dc99d7b") fixed no-repeat;
+                background-size: cover;
+                height: 100%;
+                overflow-y:scroll;
+            }
+
+            body{
+                background: none;
+                padding-top: 4.3rem;
+                color: #f5f5f5;
+            }
+
+            a {
+                color: #f5f5f5;
+            }
+
+
+            #About{
+                padding-bottom: 5rem;
+            }
+
+            #Projects{
+
+            }
+
+            #Projects h4{
+                padding-bottom:1rem;
+
+            }
+
+            #Projects h4 img{
+                margin-top:1rem;
+
+            }
+
+            #Contact {
+                padding-bottom: 5rem;
+            }
+
+            .Nav-Bar {
+                display: none;
+                text-align: center;
+            }
+
+            .Mobile-Nav-Bar {
+                display: none;
+                text-align: center;
+            }
+
+            .jumbotron{
+                padding-left: 5%;
+                padding-right: 5%;
+                background: rgba(0, 0, 0, 0.60);
+                margin: 75px;
+                width: 75%;
+            }
+
+            .jumbotron h1{
+                left:1rem;
+                font-size:3rem;
+            }
+
+            .lead{
+                left:1rem;
+                font-size:1.5rem;
+            }
+
+            #SkillSet{
+                margin-left:1rem;
+                left:1rem;
+            }
+
+            /* Begin Media Queries */
+
+            @media (max-width: 575.98px) {
+                .Mobile-Nav-Bar {
+                    display: block;
+                }
+
+                .jumbotron h1{
+                    font-size: .50rem;
+                }
+
+                .jumbotron .lead{
+                    font-size: .15rem;
+                }
+            }
+
+            @media (max-width: 767.98px) {
+                .Mobile-Nav-Bar {
+                    display: block;
+                }
+
+                .jumbotron h1{
+                    font-size: 2rem;
+                }
+
+                .jumbotron .lead{
+                    font-size: 1rem;
+                }
+            }
+
+            @media (min-width: 768px) {
+                .Nav-Bar {
+                    display: block;
+                }
+            }
+
+
+            @media (max-width: 991.98px) {
+                .jumbotron{
+                    width: 100%;
+                }
+
+                .jumbotron h1{
+                    font-size: 2.5rem;
+                }
+            }
+            /* End Media Queries */
+        </style>
+
+    </head>
+
+    <body>
+        <!-- Begin Navbar -->
+        <!-- Use Media Queries for Mobile Responsiveness -->
+        <div class="Nav-Bar">
+            <nav class="navbar navbar-expand-lg fixed-top navbar-dark" style="background-color: #000000;">
+                <div class="container">
+                    <a href="#">Alex Gracie<br><i class="fas fa-home"> </i></a>
+                    <a href="#About"> About Me <br><i class="far fa-id-card"></i></a>
+                    <a href="#Projects"> Projects <br><i class="fas fa-code"></i></a>
+                    <a href="#Contact"> Contact <br><i class="far fa-envelope"></i></a>
+
+                    <a href="https://twitter.com/AlexGracie91"><i class="fab fa-twitter-square fa-2x"></i></a>
+                    <a href="https://github.com/alexgracie"><i class="fab fa-github fa-2x"></i></a>
+                    <a href="https://www.linkedin.com/in/alex-gracie-4a9187118"><i class="fab fa-linkedin fa-2x"></i></a>
+                    <a href="https://www.freecodecamp.org/alexgracie"><i class="fab fa-free-code-camp fa-2x"></i></a>
+                </div>
+            </nav>
+        </div>
+
+        <div class="Mobile-Nav-Bar">
+            <nav class="navbar fixed-bottom navbar-expand-lg navbar-dark" style="background-color: #000000;">
+                <a href="#">Alex Gracie<br><i class="fas fa-home"> </i></a>
+                <a href="#About"> About Me <br><i class="far fa-id-card"></i></a>
+                <a href="#Projects"> Projects <br><i class="fas fa-code"></i></a>
+                <a href="#Contact"> Contact <br><i class="far fa-envelope"></i></a>
+            </nav>
+        </div>
+        <!-- End Navbar  -->
+
+        <!-- About Me Section -->
+
+        <div class="container text-left">
+            <div class="jumbotron mx-auto">
+                <div class="row">
+                    <div id="About">
+                        <h1>
+                            Hello, my name is Alex Gracie.
+                        </h1>
+                        <p class="lead">With years of successful management experience, I have adopted essential best practices
+                            for both customer facing and behind the scenes roles. Whether you are a small business
+                            looking to make your first steps into the online world or you are a household name who
+                            needs a website redesign, contact me and let's discuss your goals further.
+                        </p>
+                        <div id="SkillSet">
+                            <i class="fab fa-3x fa-html5"></i>
+                            <i class="fab fa-3x fa-css3-alt"></i>
+                            <i class="fab fa-3x fa-js-square"></i>
+                            <i class="fab fa-3x fa-git"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Projects Section -->
+                <div class="row">
+                    <div id="Projects">
+                        <h3>
+                            Here are some projects that I have been a team member for:
+                        </h3>
+
+                        <h4>Tribute Page to Edgar Allan Poe
+                            <a href="https://codepen.io/alexgracie91/full/eyyoxg/"><img class="img-responsive img-thumbnail" src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1678041.eyyoxg.4a7f16cc-399f-4f88-ab63-909960cad45e.png" alt="A thumbnail showing a tribute page to Edgar Allan Poe."></a></h4>
+                        <h4>My Portfolio Page
+                            <a href="https://codepen.io/alexgracie91/full/ppZEdV/"><img class="img-responsive img-thumbnail" src="https://codepen.io/alexgracie91/pen/ppZEdV/image/large.png" alt="A thumbnail showing a portfolio page."></a></h4>
+                        <h4>Your Next Website?
+                            <a href="#Contact"><img class="img-responsive img-thumbnail" src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9&s=dc9bf6e2e550f77b13553bdc83f4194e" alt="A Desktop with a Laptop in front, positioned on a desk."></a></h4>
+                    </div>
+                </div>
+                <!-- Contact Me Section -->
+                <div class="row">
+                    <div id="Contact">
+                        <form method="POST" action="https://formspree.io/alex.gracie91@gmail.com">
+                            <div class="form-group">
+                                <label for="Form-Text">Comment or Enquiry:</label>
+                                <textarea class="form-control" id="Form-Text" rows="3" placeholder="Please leave a comment or provide details of your enquiry."></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="Form-Email">Email address</label>
+                                <input type="email" class="form-control" id="Form-Email" placeholder="name@example.com">
+                                <br>
+                                <button type="submit">Send</button>
+                            </div>
+
+                            <div>
+                                <h2>Find me on social media:</h2>
+                                <a href="https://twitter.com/AlexGracie91"><i class="fab fa-twitter-square fa-2x"></i></a>
+                                <a href="https://github.com/alexgracie"><i class="fab fa-github fa-2x"></i></a>
+                                <a href="https://www.linkedin.com/in/alex-gracie-4a9187118"><i class="fab fa-linkedin fa-2x"></i></a>
+                                <a href="https://www.freecodecamp.org/alexgracie"><i class="fab fa-free-code-camp fa-2x"></i></a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Required -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <!-- Required -->
+    </body>
+</html>
